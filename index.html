@@ -3,14 +3,14 @@
 <head>
     
     <link href="./stylesheet.css" rel="stylesheet" type="text/css">
-
-    <title>Calculator app</title>
+    <link href="https://fonts.googleapis.com/css?family=Electrolize&display=swap" rel="stylesheet">
+    <title>Javascript Calculator</title>
     
 </head>
 
 <body>
 
-    <h1>Calculator</h1>
+    <h1>Javascript Calculator</h1>
 
     <div id="displayArea">
         <p class="display" id="displayHistory"></p>
@@ -18,27 +18,35 @@
     </div>
 
     <div id="buttonArea">
-        <div id="numberButtonArea">
-            <button class="numberButton" id="seven">7</button>
-            <button class="numberButton" id="eight">8</button>
-            <button class="numberButton" id="nine">9</button>
-            <button class="numberButton" id="four">4</button>
-            <button class="numberButton" id="five">5</button>
-            <button class="numberButton" id="six">6</button>
-            <button class="numberButton" id="one">1</button>
-            <button class="numberButton" id="two">2</button>
-            <button class="numberButton" id="three">3</button>
-            <button class="numberButton" id="zero">0</button>
-            <button class="numberButton" id="decimal">.</button>
-        </div>
         <div id="operatorArea">
-            <button class="operatorButton" id="add">+</button>
-            <button class="operatorButton" id="subtract">-</button>
-            <button class="operatorButton" id="multiply">*</button>
-            <button class="operatorButton" id="divide">/</button>
+            <button class="button smallButton operatorButton" id="add">+</button>
+            <button class="button smallButton operatorButton" id="subtract">-</button>
+            <button class="button smallButton operatorButton" id="multiply">*</button>
+            <button class="button smallButton operatorButton" id="divide">/</button>
         </div>
-        <button class="button" id="equalsButton">=</button>
-        <button class="button" id="clearButton">C</button>
+        <div id="numberButtonArea">
+            <div id="row1">
+                <button class="button smallButton numberButton" id="seven">7</button>
+                <button class="button smallButton numberButton" id="eight">8</button>
+                <button class="button smallButton numberButton" id="nine">9</button>
+            </div>
+            <div id="row2">
+                <button class="button smallButton numberButton" id="four">4</button>
+                <button class="button smallButton numberButton" id="five">5</button>
+                <button class="button smallButton numberButton" id="six">6</button>
+            </div>
+            <div id="row3">
+                <button class="button smallButton numberButton" id="one">1</button>
+                <button class="button smallButton numberButton" id="two">2</button>
+                <button class="button smallButton numberButton" id="three">3</button>
+            </div>
+            <div id="row4">
+                <button class="button wideButton numberButton" id="zero">0</button>
+                <button class="button smallButton numberButton" id="decimal">.</button>
+            </div>
+        </div>
+        <button class="button lastRowButton wideButton" id="clearButton">C</button>
+        <button class="button lastRowButton wideButton" id="equalsButton">=</button>
     </div>
 
     <script src="./script.js"></script>
