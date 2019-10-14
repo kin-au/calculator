@@ -1,14 +1,3 @@
-// Features to add:
-// - set display length character limit for displayCurrent
-// - displayHistory should show latest history when overflow
-// 
-// All working, but code is complicated/hard to read. For refactor:
-// - should not use eval(), replace with if/switch statement that points to different functions for each operator (or dispatch table - a data structure that holds functions)
-// - start by writing the calculation functions
-// - rewrite numberClicked function (maybe with switch statement and regex?)
-// - use "let lastButtonClicked" (e.g. can check if user clicks another operator and will replace selectedOperator, and no need to check for "=" in displayHistory.innerHTML)
-
-
 let displayHistory = document.getElementById("displayHistory");
 let displayCurrent = document.getElementById("displayCurrent");
 let numberButtonArea = document.getElementById("numberButtonArea");
