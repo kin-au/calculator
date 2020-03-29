@@ -1,6 +1,6 @@
 # JavaScript Calculator
 
-### A simple calculator app, built (using vanilla HTML, CSS, and JavaScript) as part of the Founders and Coders course pre-requisites
+### A calculator app, built (using vanilla HTML, CSS, and JavaScript) as part of the Founders and Coders course pre-requisites
 
 ##### Features to add:  
 * Set display length character limit for displayCurrent
